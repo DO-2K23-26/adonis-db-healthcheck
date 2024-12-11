@@ -1,5 +1,12 @@
 # Probes POC
 
+## Project setup
+
+You need to make a `.env` file based on the `.env.example` file.  
+Run `node ace generate:key` to generate a new app key for the project.
+
+## Running the project
+
 With `docker` only:
 `docker network create -d bridge app-network`
 `docker build -t monapp:0.0.1 -f Dockerfile .`
